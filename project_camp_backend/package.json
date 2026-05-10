@@ -1,0 +1,38 @@
+{
+  "name": "node_backend",
+  "version": "1.0.0",
+  "description": "Testing the backend powers of node.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "start_nodemon": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ImmorTaLRioTZ/Backend_tryouts.git"
+  },
+  "author": "Jit Sarkar",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "prettier": "3.8.1"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.1042.0",
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.1",
+    "jsonwebtoken": "^9.0.3",
+    "mailgen": "^2.0.32",
+    "mongodb": "^6.21.0",
+    "mongoose": "^8.22.0",
+    "multer": "^2.1.1",
+    "nodemailer": "^8.0.1",
+    "oracledb": "^6.10.0"
+  }
+}
